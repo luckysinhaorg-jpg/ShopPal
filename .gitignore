@@ -1,0 +1,33 @@
+# Local secrets and configuration
+.env
+.env.*
+.env.local
+!.env.example
+
+# Java / Maven
+backend/target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+*.tsbuildinfo
+frontend/node_modules/
+**/node_modules/
+frontend/dist/
+**/dist/
+
+# Local database files
+*.mv.db
+*.trace.db
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Scratch and temporary folders
+work/
+outputs/
